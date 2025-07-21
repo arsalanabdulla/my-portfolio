@@ -24,8 +24,8 @@ const projects = [
       "Designed and developed a fully responsive website for my portfolio. Focused on clean layout, smooth user experience, and mobile-friendly design.",
     stack: [{ name: "Next JS" }, { name: "Tailwind CSS" }],
     image: "/assets/work/thumb1.png",
-    live: "#",
-    github: "#",
+    live: "https://arsalan--portfolio.vercel.app/",
+    github: "https://github.com/arsalanabdulla/my-portfolio",
   },
   {
     num: "02",
