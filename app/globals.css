@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-primary: #1c1c22;
+  --color-accent: #00ff99;
+  --color-hover: #00e187;
+
+  /* --font-jetbrainsMono: "JetBrains_Mono", "sans-serif"; */
+
+  /* --shadow-boxShadow: 4px 4px 0 #000;   */
+
+  --breakpoint-sm: 640px; /* Small phones */
+  --breakpoint-md: 768px; /* Tablets */
+  --breakpoint-lg: 960px; /* Small laptops */
+  --breakpoint-xl: 1200px; /* Desktop */
+}
+
+@layer components {
+  .text-outline {
+    -webkit-text-stroke: 1px white;
+  }
+
+  .group:hover .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+}
